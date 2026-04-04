@@ -1,3 +1,5 @@
+console.log(new Date())
+
 import { join } from "node:path";
 import { hostname } from "node:os";
 import { createServer } from "node:http";
