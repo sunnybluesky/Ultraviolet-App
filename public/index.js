@@ -11,6 +11,9 @@ const address = document.getElementById("uv-address");
  * @type {HTMLInputElement}
  */
 const searchEngine = document.getElementById("uv-search-engine");
+searchEngine.value = "https://duckduckgo.com/?q=%s"
+
+
 /**
  * @type {HTMLParagraphElement}
  */
