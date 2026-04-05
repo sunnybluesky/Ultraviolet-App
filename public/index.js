@@ -49,5 +49,7 @@ form.addEventListener("submit", async (event) => {
 			{ wisp: wispUrl },
 		]);
 	}
-	frame.src = __uv$config.prefix + __uv$config.encodeUrl(url);
+	const src = __uv$config.prefix + __uv$config.encodeUrl(url);
+	frame.src = src
+
 });
